@@ -61,7 +61,3 @@ This project demonstrates:
    - Plot loss and accuracy curves.
 
 ---
-
-
-model.compile(optimizer='adam', loss='binary_crossentropy', metrics=['accuracy'])
-history = model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=25, batch_size=64)
